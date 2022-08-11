@@ -1,21 +1,28 @@
 {
-  "name": "squarepeg",
+  "name": "www",
   "version": "1.0.0",
   "description": "Square Peg - Change hiring, so hiring changes.",
-  "homepage": "https://squarepegjobs.com",
-  "author": "spj",
-  "private": true,
+  "homepage": "https://squarepeg.github.io/www/",
+  "author": "Square Peg Services, LLC.",
+  "contributors": [
+    "Casey Hill <uxinkc@gmail.com> (https://github.com/uxinkc)"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SquarePeg/www.git"
+  },
   "scripts": {
     "start": "gulp serve",
-    "build": "gulp build:dist"
+    "build": "gulp build:dist",
+    "deploy": "gh-pages -d dist"
   },
   "devDependencies": {
     "@popperjs/core": "^2.11.2",
+    "autoprefixer": "10.4.5",
     "bootstrap": "^5.1.3",
     "browser-sync": "~2.27.7",
     "del": "~6.0.0",
     "gulp": "~4.0.2",
-    "autoprefixer": "10.4.5",
     "gulp-autoprefixer": "^8.0.0",
     "gulp-beautify": "^3.0.0",
     "gulp-cache": "~1.1.3",
@@ -36,5 +43,8 @@
     "imagemin-jpeg-recompress": "~7.0.0",
     "imagemin-pngquant": "~9.0.2",
     "sass": "1.49.0"
+  },
+  "dependencies": {
+    "gh-pages": "^4.0.0"
   }
 }
