@@ -1,0 +1,32 @@
+// Use this to overwrite Bootstrap and theme variables
+
+// Example of a variable override to change the primary color.
+// Remove the "//" to uncomment it and see it in action.
+$white: #FFFFFF;
+$off-white: #F7F7F7;
+$spj-color-primary-8: #10002b;
+$spj-color-primary-7: #240046;
+$spj-color-primary-6: #3C096C;
+$spj-color-primary-5: #5A189A;
+$spj-color-primary-4: #7B2CBF;
+$spj-color-primary-3: #9D4EDD;
+$spj-color-primary-2: #C77DFF;
+$spj-color-primary-1: #E0AAFF;
+
+$primary: $spj-color-primary-7;
+
+
+// Example of a variable override to change the theme font.
+// Remove the "//" to uncomment it and see it in action.
+// $font-family-sans-serif: "Arial", sans-serif;
+
+// To use a custom font, first add the font files inside folder src/assets/fonts/
+// Then use the example below to import your custom font.
+// Remove the "//" to uncomment it and see it in action.
+// $path-to-fonts: '../fonts/myfont/myfont.css';
+// $font-family-sans-serif: "My Font Name", sans-serif;
+
+// To use a Google font use the example below.
+// Remove the "//" to uncomment it and see it in action.
+// $path-to-fonts: 'https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap';
+// $font-family-sans-serif: 'Montserrat', sans-serif;

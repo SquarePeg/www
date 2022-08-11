@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	@@include('_head.html')
+	<link rel="stylesheet" href="@@webRoot/assets/css/colors/purple.css">
+</head>
+<body>
+	<div class="content-wrapper">
+		<header class="wrapper bg-soft-primary">
+			@@include('_navbar.html', {
+				"classList": "classic transparent position-absolute navbar-dark",
+				"logoBoth": true,
+				"logoAlt": "logo-purple",
+				"otherClassList": "ms-lg-4",
+				"otherBtn": true,
+				"otherBtnClassList": "btn-sm btn-white rp",
+				"otherBtnText": "Sign up",
+				"otherBtnLink": "/pricing"
+			})
+		</header>
+		<!-- /header -->
+		<section class="wrapper image-wrapper bg-image bg-overlay bg-overlay-400 bg-content text-white" data-image-src="@@webRoot/assets/img/photos/bg-chair1.jpg">
+			<div class="container pt-18 pb-16" style="z-index: 5; position:relative">
+				<div class="row gx-0 gy-12 align-items-center">
+					<div class="col-md-10 offset-md-1 offset-lg-0 col-lg-6 content text-center text-lg-start" data-cues="slideInDown" data-group="page-title" data-delay="300">
+						<h1 class="display-1 mb-5 text-white">Find the Fit</h1>
+						<p class="lead fs-26 lh-sm mb-7 pe-xl-10">Square Peg is changing the way companies hire and retain great employees. Want to know more?</p>
+						<div class="d-flex justify-content-center justify-content-lg-start" data-cues="slideInDown" data-group="page-title-buttons" data-delay="500">
+							<span><a href="/why" class="btn btn-white rp me-5">Why Square Peg?</a></span>
+							<span><a href="/pricing" class="btn btn-outline-white rp">Pricing</a></span>
+						</div>
+					</div>
+					<!--/column -->
+					<div class="col-lg-5 offset-lg-1">
+						<!-- <div class="swiper-container dots-over shadow-lg" data-margin="5" data-nav="true" data-dots="true">
+							<div class="swiper">
+								<div class="swiper-wrapper">
+									<div class="swiper-slide"><img src="@@webRoot/assets/img/photos/about21.jpg" srcset="@@webRoot/assets/img/photos/about21@2x.jpg 2x" class="rounded" alt="" /></div>
+									<div class="swiper-slide"><a href="@@webRoot/assets/media/movie.mp4" class="btn btn-circle btn-white btn-play ripple mx-auto mb-5 position-absolute" style="top:50%; left: 50%; transform: translate(-50%,-50%); z-index:3;" data-glightbox data-gallery="hero"><i class="icn-caret-right"></i></a><img src="@@webRoot/assets/img/photos/about22.jpg" srcset="@@webRoot/assets/img/photos/about22@2x.jpg 2x" class="rounded" alt="" /></div>
+									<div class="swiper-slide"><img src="@@webRoot/assets/img/photos/about23.jpg" srcset="@@webRoot/assets/img/photos/about23@2x.jpg 2x" class="rounded" alt="" /></div>
+								</div>
+								/.swiper-wrapper 
+							</div>
+							/.swiper
+						</div> -->
+						<!-- /.swiper-container -->
+					</div>
+					<!-- /column -->
+				</div>
+				<!-- /.row -->
+			</div>
+			<!-- /.container -->
+		</section>
+		<!-- /section -->
+		<section class="wrapper bg-light">
+			<div class="container py-10 py-md-14">
+				<div class="row text-center">
+					<div class="col-md-10 offset-md-1 col-lg-8 offset-lg-2">
+						<h3 class="display-3 mb-14 px-xl-10">"Change hiring, so hiring changes."</h3>
+					</div>
+					<!-- /column -->
+				</div>
+				<!-- /.row -->
+				<!-- <div class="position-relative mb-10 mb-md-17">
+					<div class="shape rounded-circle bg-soft-primary rellax w-16 h-16" data-rellax-speed="1" style="bottom: -0.5rem; right: -2.5rem; z-index: 0;"></div>
+					<div class="shape bg-dot primary rellax w-16 h-17" data-rellax-speed="1" style="top: -0.5rem; left: -2.5rem; z-index: 0;"></div>
+					<div class="row gx-md-5 gy-5 text-center">
+						
+						
+						<div class="col-md-6 col-xl-3">
+							<div class="card">
+								<div class="card-body">
+									<div class="icon btn btn-circle btn-lg btn-primary disabled mb-3"> <i class="uil uil-shield-exclamation"></i> </div>
+									<h4>Trusted</h4>
+									<p class="mb-2">Your personal information is not revealed to companies until you choose.</p>
+									<a href="#" class="more hover link-primary">Learn More</a>
+								</div>
+								
+							</div>
+							
+						</div>
+						
+
+						<div class="col-md-6 col-xl-3">
+							<div class="card">
+								<div class="card-body">
+									<div class="icon btn btn-circle btn-lg btn-primary disabled mb-3"> <i class="uil uil-phone-volume"></i> </div>
+									<h4>Community</h4>
+									<p class="mb-2">Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus cras justo.</p>
+									<a href="#" class="more hover link-primary">Learn More</a>
+								</div>
+							</div>
+						</div>
+						
+						<div class="col-md-6 col-xl-3">
+							<div class="card">
+								<div class="card-body">
+									<div class="icon btn btn-circle btn-lg btn-primary disabled mb-3"> <i class="uil uil-laptop-cloud"></i> </div>
+									<h4>Training</h4>
+									<p class="mb-2">Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus cras justo.</p>
+									<a href="#" class="more hover link-primary">Learn More</a>
+								</div>
+							
+							</div>
+							
+						</div>
+						
+						<div class="col-md-6 col-xl-3">
+							<div class="card">
+								<div class="card-body">
+									<div class="icon btn btn-circle btn-lg btn-primary disabled mb-3"> <i class="uil uil-chart-line"></i> </div>
+									<h4>Promotion</h4>
+									<p class="mb-2">Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus cras justo.</p>
+									<a href="#" class="more hover link-primary">Learn More</a>
+								</div>
+								
+							</div>
+							
+						</div>
+						
+					</div>
+					
+				</div> -->
+
+				
+					
+				<!--/.row -->
+				<div class="row gx-lg-8 gx-xl-12 gy-10 align-items-center mb-md-10">
+					
+						<div class="col-lg-7 order-lg-2">
+							<figure class="rounded"><img class="w-auto" src="@@webRoot/assets/img/photos/plant-mac-window.jpg" srcset="@@webRoot/assets/img/photos/plant-mac-window.jpg" alt="" /></figure>
+						</div>
+					
+					<!--/column -->
+					<div class="col-lg-5">
+						
+						<h3 class="display-4 mb-5">Hiring Problems?</h3>
+						<p class="mb-6">Square Peg allows companies to optimize their hiring process and find the right candidates. Using our <strong>Fit Score</strong> approach, we streamline the hiring process, optimizing your results for culture, skills, and personality.</p>
+						<div class="row gy-3">
+							<div class="col-xl-6">
+								<ul class="icon-list bullet-bg bullet-soft-primary mb-0">
+									<li><span><i class="uil uil-check"></i></span><span>Best In Class Solution</span></li>
+									<li class="mt-3"><span><i class="uil uil-check"></i></span><span>Hiring process simplified</span></li>
+								</ul>
+							</div>
+							<!--/column -->
+							<div class="col-xl-6">
+								<ul class="icon-list bullet-bg bullet-soft-primary mb-0">
+									<li><span><i class="uil uil-check"></i></span><span>Reduced Time-to-Hire</span></li>
+									<li class="mt-3"><span><i class="uil uil-check"></i></span><span>Employee Retention soars</span></li>
+								</ul>
+							</div>
+							<!--/column -->
+						</div>
+						<!--/.row -->
+					</div>
+					<!--/column -->
+				</div>
+				<!--/.row -->
+			</div>
+			<!-- /.container -->
+		</section>
+		<!-- /section -->
+		
+
+		<section class="wrapper bg-gray">
+			<div class="container py-10 py-md-12 pb-md-8">
+			<div class="row gx-lg-8 gx-xl-12 gy-10 mb-8 mb-md-12 align-items-center">
+				<div class="col-lg-7">
+					<figure><img class="w-auto" src="./assets/img/photos/spj-imac-ipad.png" srcset="./assets/img/photos/spj-imac-ipad.png" alt=""></figure>
+				</div>
+				<!--/column -->
+				<div class="col-lg-5">
+					<h3 class="display-4 mb-7">Square Peg Platform</h3>
+					<div class="d-flex flex-row mb-6">
+						<div>
+							<span class="icon btn btn-circle btn-soft-primary disabled me-5"><span class="number fs-18">1</span></span>
+						</div>
+						<div>
+							<h4 class="mb-1">Committed Community</h4>
+							<p class="mb-0">Companies submit job postings to a network of professionals and industry experts.</p>
+						</div>
+					</div>
+					<div class="d-flex flex-row mb-6">
+						<div>
+							<span class="icon btn btn-circle btn-soft-primary disabled me-5"><span class="number fs-18">2</span></span>
+						</div>
+						<div>
+							<h4 class="mb-1">Collective Agreement</h4>
+							<p class="mb-0">The platform allows companies, members, and candidates to each provide rankings for specific role attributes.</p>
+						</div>
+					</div>
+					<div class="d-flex flex-row">
+						<div>
+							<span class="icon btn btn-circle btn-soft-primary disabled me-5"><span class="number fs-18">3</span></span>
+						</div>
+						<div>
+							<h4 class="mb-1">Elevated Candidates</h4>
+							<p class="mb-0">To ensure the needs of all parties are met, the Square Peg platform elevates the best candiates for the role.</p>
+						</div>
+					</div>
+				</div>
+				<!--/column -->
+			</div>
+		</div>
+		</section>
+	
+		<!-- 
+		<section class="wrapper">
+			<div class="container py-14 pt-md-10 pb-md-10">
+
+				<div class="row mt-md-n50p mb-14 mb-md-7">
+					<div class="col-xl-10 mx-auto">
+						<div class="card image-wrapper bg-full bg-image bg-overlay bg-overlay-400" data-image-src="@@webRoot/assets/img/photos/bg2.jpg">
+							<div class="card-body p-9 p-xl-11">
+								<div class="row align-items-center counter-wrapper gy-8 text-center text-white">
+									<div class="col-6 col-lg-3">
+										<h3 class="counter counter-lg text-white">7518</h3>
+										<p>Completed Projects</p>
+									</div>
+									
+									<div class="col-6 col-lg-3">
+										<h3 class="counter counter-lg text-white">3472</h3>
+										<p>Happy Customers</p>
+									</div>
+									
+									<div class="col-6 col-lg-3">
+										<h3 class="counter counter-lg text-white">2184</h3>
+										<p>Expert Employees</p>
+									</div>
+									
+									<div class="col-6 col-lg-3">
+										<h3 class="counter counter-lg text-white">4523</h3>
+										<p>Awards Won</p>
+									</div>
+									
+								</div>
+								
+							</div>
+							
+						</div>
+						
+					</div>
+
+				</div> -->
+				<!-- /.row -->
+
+
+
+				<!-- <div class="row text-center">
+					<div class="col-lg-9 col-xl-8 col-xxl-7 mx-auto">
+						<h2 class="fs-15 text-uppercase text-primary mb-3"> </h2>
+						<h3 class="display-4 mb-6">Proven research on how your company can become more profitable.</h3>
+					</div>
+				</div>
+				<div class="position-relative">
+					<div class="shape bg-dot primary rellax w-17 h-20" data-rellax-speed="1" style="top: 0; left: -1.7rem;"></div>
+					<div class="swiper-container dots-closer blog grid-view mb-6" data-margin="0" data-dots="true" data-items-xl="3" data-items-md="2" data-items-xs="1">
+						<div class="swiper">
+							<div class="swiper-wrapper">
+								<div class="swiper-slide">
+									<div class="item-inner">
+										<article>
+											<div class="card">
+												<figure class="card-img-top overlay overlay-1 hover-scale"><a href="#"> <img src="@@webRoot/assets/img/photos/b4.jpg" alt="" /></a>
+													<figcaption>
+														<h5 class="from-top mb-0">Read More</h5>
+													</figcaption>
+												</figure>
+												<div class="card-body">
+													<div class="post-header">
+														<h2 class="post-title h3 mt-1 mb-3"><a class="link-dark" href="@@webRoot/blog-post.html">Ligula tristique quis risus</a></h2>
+													</div>
+												
+													<div class="post-content">
+														<p>Mauris convallis non ligula non interdum. Gravida vulputate convallis tempus vestibulum cras imperdiet nun eu dolor.</p>
+													</div>
+													
+												</div>
+												
+												<div class="card-footer">
+													<ul class="post-meta d-flex mb-0">
+														<li class="post-date"><i class="uil uil-calendar-alt"></i><span>14 Apr 2022</span></li>
+														<li class="post-comments"><a href="#"><i class="uil uil-file-alt fs-15"></i>Coding</a></li>
+													</ul>
+													
+												</div>
+												
+											</div>
+											
+										</article>
+										
+									</div>
+									
+								</div>
+								
+								<div class="swiper-slide">
+									<div class="item-inner">
+										<article>
+											<div class="card">
+												<figure class="card-img-top overlay overlay-1 hover-scale"><a href="#"> <img src="@@webRoot/assets/img/photos/b5.jpg" alt="" /></a>
+													<figcaption>
+														<h5 class="from-top mb-0">Read More</h5>
+													</figcaption>
+												</figure>
+												<div class="card-body">
+													<div class="post-header">
+														<h2 class="post-title h3 mt-1 mb-3"><a class="link-dark" href="@@webRoot/blog-post.html">Nullam id dolor elit id nibh</a></h2>
+													</div>
+													
+													<div class="post-content">
+														<p>Mauris convallis non ligula non interdum. Gravida vulputate convallis tempus vestibulum cras imperdiet nun eu dolor.</p>
+													</div>
+													
+												</div>
+												
+												<div class="card-footer">
+													<ul class="post-meta d-flex mb-0">
+														<li class="post-date"><i class="uil uil-calendar-alt"></i><span>29 Mar 2022</span></li>
+														<li class="post-comments"><a href="#"><i class="uil uil-file-alt fs-15"></i>Workspace</a></li>
+													</ul>
+													
+												</div>
+												
+											</div>
+											
+										</article>
+										
+									</div>
+									
+								</div>
+								
+								<div class="swiper-slide">
+									<div class="item-inner">
+										<article>
+											<div class="card">
+												<figure class="card-img-top overlay overlay-1 hover-scale"><a href="#"> <img src="@@webRoot/assets/img/photos/b6.jpg" alt="" /></a>
+													<figcaption>
+														<h5 class="from-top mb-0">Read More</h5>
+													</figcaption>
+												</figure>
+												<div class="card-body">
+													<div class="post-header">
+														<h2 class="post-title h3 mt-1 mb-3"><a class="link-dark" href="@@webRoot/blog-post.html">Ultricies fusce porta elit</a></h2>
+													</div>
+													<div class="post-content">
+														<p>Mauris convallis non ligula non interdum. Gravida vulputate convallis tempus vestibulum cras imperdiet nun eu dolor.</p>
+													</div>
+												</div>
+												<div class="card-footer">
+													<ul class="post-meta d-flex mb-0">
+														<li class="post-date"><i class="uil uil-calendar-alt"></i><span>26 Feb 2022</span></li>
+														<li class="post-comments"><a href="#"><i class="uil uil-file-alt fs-15"></i>Meeting</a></li>
+													</ul>
+												</div>
+											</div>
+										</article>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="item-inner">
+										<article>
+											<div class="card">
+												<figure class="card-img-top overlay overlay-1 hover-scale"><a href="#"> <img src="@@webRoot/assets/img/photos/b7.jpg" alt="" /></a>
+													<figcaption>
+														<h5 class="from-top mb-0">Read More</h5>
+													</figcaption>
+												</figure>
+												<div class="card-body">
+													<div class="post-header">
+														<h2 class="post-title h3 mt-1 mb-3"><a class="link-dark" href="@@webRoot/blog-post.html">Morbi leo risus porta eget</a></h2>
+													</div>
+													<div class="post-content">
+														<p>Mauris convallis non ligula non interdum. Gravida vulputate convallis tempus vestibulum cras imperdiet nun eu dolor.</p>
+													</div>
+												</div>
+												<div class="card-footer">
+													<ul class="post-meta d-flex mb-0">
+														<li class="post-date"><i class="uil uil-calendar-alt"></i><span>7 Jan 2022</span></li>
+														<li class="post-comments"><a href="#"><i class="uil uil-file-alt fs-15"></i>Business Tips</a></li>
+													</ul>
+												</div>
+											</div>
+										</article>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div> 
+			</div>
+		</section>
+		-->
+		
+		
+	</div>
+	
+	<footer class="bg-footer text-inverse">
+		<div class="container py-13 py-md-15">
+			<div class="d-lg-flex flex-row align-items-lg-center">
+				<h3 class="display-4 mb-6 mb-lg-0 pe-lg-20 pe-xl-22 pe-xxl-25 text-white">Join our community and help companies with your expertise.</h3>
+				<a href="#" class="btn btn-white rp mb-0 text-nowrap">Try For Free</a>
+			</div>
+			<!--/div -->
+			<hr class="mt-11 mb-12" />
+			@@include('_footer-widgets.html', {
+				"lightText": true
+			})
+		</div>
+		<!-- /.container -->
+	</footer>
+	@@include('_page-progress.html')
+	@@include('_scripts.html')
+</body>
+</html>

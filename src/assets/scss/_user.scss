@@ -1,0 +1,13 @@
+// Use this to write your custom SCSS
+
+.bg-footer {
+  
+  background-color: $spj-color-primary-7;
+  
+  &__link {
+    color: $off-white !important;
+    &:hover {
+      color: $white !important;
+    }
+  }
+ }
